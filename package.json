@@ -1,0 +1,25 @@
+{
+  "name": "tic-tac-toe-node",
+  "version": "1.0.0",
+  "description": "basic tic-tac-toe game written in node",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --coverage --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "gh-jb:jbariel/tic-tac-toe-node.git"
+  },
+  "author": "Jarrett Bariel <jarrett.bariel@galvanize.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "output-manager": "^3.0.0",
+    "server-lite": "^1.0.0"
+  },
+  "jest": {
+    "verbose": true
+  }
+}
